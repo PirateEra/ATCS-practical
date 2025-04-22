@@ -1,0 +1,56 @@
+Checkpoint loaded from modelsaves/mean_model.pth
+Next task!
+Next task!
+Next task!
+Next task!
+{'MR': {'devacc': np.float64(73.81), 'acc': np.float64(75.26), 'ndev': 10662, 'ntest': 10662}, 'CR': {'devacc': np.float64(77.64), 'acc': np.float64(79.18), 'ndev': 3775, 'ntest': 3775}, 'MPQA': {'devacc': np.float64(83.38), 'acc': np.float64(84.08), 'ndev': 10606, 'ntest': 10606}, 'SUBJ': {'devacc': np.float64(89.57), 'acc': np.float64(90.22), 'ndev': 10000, 'ntest': 10000}}
+Macro Accuracy: 82.19
+Micro Accuracy: 82.62
+
+
+
+python eval.py --encoder_model uni-lstm --checkpoint_path modelsaves/uni_lstm_model.pth
+Checkpoint loaded from modelsaves/uni_lstm_model.pth
+Next task!
+Next task!
+Next task!
+Next task!
+{'MR': {'devacc': np.float64(71.1), 'acc': np.float64(71.6), 'ndev': 10662, 'ntest': 10662}, 'CR': {'devacc': np.float64(76.63), 'acc': np.float64(78.07), 'ndev': 3775, 'ntest': 3775}, 'MPQA': {'devacc': np.float64(83.77), 'acc': np.float64(84.36), 'ndev': 10606, 'ntest': 10606}, 'SUBJ': {'devacc': np.float64(84.21), 'acc': np.float64(85.95), 'ndev': 10000, 'ntest': 10000}}
+Macro Accuracy: 79.99
+Micro Accuracy: 80.25
+
+
+Checkpoint loaded from modelsaves/bi_lstm_model.pth
+Next task!
+/home/david/anaconda3/envs/atcs310/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+Next task!
+Next task!
+Next task!
+{'MR': {'devacc': np.float64(71.41), 'acc': np.float64(72.36), 'ndev': 10662, 'ntest': 10662}, 'CR': {'devacc': np.float64(76.88), 'acc': np.float64(78.44), 'ndev': 3775, 'ntest': 3775}, 'MPQA': {'devacc': np.float64(84.2), 'acc': np.float64(84.69), 'ndev': 10606, 'ntest': 10606}, 'SUBJ': {'devacc': np.float64(87.7), 'acc': np.float64(88.58), 'ndev': 10000, 'ntest': 10000}}
+Macro Accuracy: 81.02
+Micro Accuracy: 81.38
+
+
+Checkpoint loaded from modelsaves/bi_max_lstm_model.pth
+Next task!
+/home/david/anaconda3/envs/atcs310/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+Next task!
+Next task!
+Next task!
+{'MR': {'devacc': np.float64(78.8), 'acc': np.float64(78.81), 'ndev': 10662, 'ntest': 10662}, 'CR': {'devacc': np.float64(83.12), 'acc': np.float64(84.5), 'ndev': 3775, 'ntest': 3775}, 'MPQA': {'devacc': np.float64(86.35), 'acc': np.float64(86.75), 'ndev': 10606, 'ntest': 10606}, 'SUBJ': {'devacc': np.float64(90.62), 'acc': np.float64(91.02), 'ndev': 10000, 'ntest': 10000}}
+Macro Accuracy: 85.27
+Micro Accuracy: 85.31
