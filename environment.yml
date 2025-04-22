@@ -1,4 +1,4 @@
-name: ATCS
+name: ACTS
 channels:
   - nvidia
   - conda-forge
@@ -116,10 +116,13 @@ dependencies:
       - pyyaml==6.0.2
       - regex==2024.11.6
       - requests==2.32.3
+      - scikit-learn==1.6.1
+      - scipy==1.15.2
       - setuptools==79.0.0
       - sympy==1.13.1
       - tensorboard==2.19.0
       - tensorboard-data-server==0.7.2
+      - threadpoolctl==3.6.0
       - torch==2.6.0
       - tqdm==4.67.1
       - triton==3.2.0
